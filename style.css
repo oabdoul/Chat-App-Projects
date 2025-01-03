@@ -1,0 +1,189 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Poppins", serif;
+}
+
+body{
+    background-color: #0b5bbd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.register_form {
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3)
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p.error_message{
+    color: #db4c4c;
+}
+
+
+div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+label{
+    margin-bottom: 2px;
+}
+
+
+input{
+    outline: 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.checkbox{
+    display: inline;
+    margin: 5px 0;
+}
+
+button{
+    width: 100%;
+    background: #004cff;
+    color: #FFF;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+
+button:hover{
+    background: #255cda;
+}
+
+p.link{
+    text-align: center;
+}
+
+p.link a{
+    text-decoration: none;
+    color: #004cff;
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+
+/* Chat */
+
+.chat{
+    width: 500px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3)
+}
+
+.button-email{
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.deconnexion_btn {
+    text-decoration: none;
+    background: #004cff;
+    color: #FFF;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.deconnexion_btn:hover{
+    background: #255cda;
+}
+
+.message_box{
+    min-height: 360px;
+    max-height: 360px;
+    min-width: 400px;
+    margin: 10px 0;
+    overflow: auto;
+    padding: 5px 10px;
+    border-top: 1px solid #999;
+}
+
+.message_box .message{
+    width: 90%;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+
+.message_box .message span{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.message_box p{
+    word-break: break-all;
+}
+
+.your_message{
+    border: 1px solid #1877F2;
+    border-radius: 10px 10px 10px 0;
+}
+
+.your_message span{
+    color: #1877F2;
+}
+
+.others_message{
+    border: 1px solid #999;
+    border-radius: 10px 10px 0 10px;
+    margin-left: auto;
+}
+
+.others_message span{
+    color: #333;
+}
+
+.date{
+    color: #ccc;
+    font-size: 13px;
+}
+
+.send_message{
+    border-top: 1px solid #999;
+    display: flex;
+    flex-direction: column;
+    padding: 10px
+}
+
+.send_message textarea{
+    width: 100%;
+    resize: none;
+    border-radius: 5px;
+    outline: 0;
+    padding: 5px;
+    font-size: 13px;
+}
+

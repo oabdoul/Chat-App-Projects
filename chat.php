@@ -11,7 +11,7 @@
     <div class="chat">
         <div class="button-email">
             <span>abdoul@gmail.com</span>
-            <a href="index.html" class="deconnexion_btn">Déconnexion</a>
+            <a href="index.php" class="deconnexion_btn">Déconnexion</a>
         </div>
         <!-- Message -->
          <div class="message_box">

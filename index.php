@@ -19,7 +19,7 @@
             <input type="password" name="password" id="password">
         </div>
         <button>Connexion</button>
-        <p class="link">Vous n'avez pas de compte ? <a href="inscription.html">Créer un compte</a></p>
+        <p class="link">Vous n'avez pas de compte ? <a href="inscription.php">Créer un compte</a></p>
     </form>
     <script src="script.js"></script>
 </body>

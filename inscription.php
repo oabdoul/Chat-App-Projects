@@ -24,7 +24,7 @@
             <input type="password" name="password2" class="password2">
         </div>
         <button>Inscription</button>
-        <p class="link">Vous avez un compte ? <a href="index.html">Se connecter</a></p>
+        <p class="link">Vous avez un compte ? <a href="index.php">Se connecter</a></p>
     </form>
 
     <script src="script.js"></script>

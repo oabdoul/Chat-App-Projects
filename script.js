@@ -1,8 +1,8 @@
 
 // Vérification de mot de passe
 
-let mdp1 = document.querySelector(".password1");
-let mdp2 = document.querySelector(".password2");
+let mdp1 = document.querySelector(".mdp1");
+let mdp2 = document.querySelector(".mdp2");
 
 mdp2.onkeyup = function(){
     error_message = document.querySelector(".error_message")

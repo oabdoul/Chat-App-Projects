@@ -37,7 +37,6 @@ p.error_message{
     color: #db4c4c;
 }
 
-
 div{
     width: 100%;
     display: flex;
@@ -187,3 +186,12 @@ p.link a{
     font-size: 13px;
 }
 
+.success_message{
+    padding: 10px 0;
+    margin: 5px 0;
+    text-align: center;
+    background-color: #57cf16;
+    color: #FFF;
+    font-size: 12px;
+    border-radius: 5px;
+}
